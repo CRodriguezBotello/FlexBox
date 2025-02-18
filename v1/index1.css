@@ -1,0 +1,41 @@
+header{
+    background-color: lightblue;
+    width: 100%;
+}
+
+nav{
+    
+    /* background-color: lightblue; */
+    width: 90%;
+    height: 10%;
+    display: flex;
+}
+
+nav ul{
+    /* background-color: aqua; */
+    display: flex;
+    flex-basis: 90%;
+    list-style: none;
+}
+
+ul li{
+    margin-right: 30px;
+}
+nav #imagen{
+    flex-basis: 10%;
+    /* FLEX BASIS: Define el tamaño inicial del elemento */
+}
+
+.menu{
+    border: 1px solid black;
+    text-align: center;
+    flex-grow: 1;
+    /*FLEX GROW: Hace que el espacio sobrante se divida entre la suma de todos los componentes que esten dentro y se reparta segun el numero del flex grow que tenga cada uno*/ 
+    /*  flex-shrink: 1; */
+    /*FLEX SHRINK: Hace que si se añaden mas bloques de los que caben en el contenedor, estos se hagan mas pequeños para que quepan todos, 1 es el valor por defecto, tambien lo alicara aunque no se ponga, esto se usa para ponerlo a un elemento en especifico y asi hacer que ese elemento se haga mas pequeño*/
+}
+
+/* #inicio{
+     background-color: lightcoral; 
+     flex-grow: 3; 
+} */
